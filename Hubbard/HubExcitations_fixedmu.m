@@ -4,7 +4,7 @@ clc;
 
 %% parameters
 
-U = 2;
+U = 5;
 % mu = -1.99581; % with U=2 -> n~0.5
 % mu = -1.65767; % with U=2 -> n~0.6
 % mu = -0.89585; % with U=2 -> n~0.8
@@ -265,6 +265,9 @@ if ~hf
     psp = psp(:);
     Esp = Esp(:);
 end
+
+%% spin-spin-hole
+
 %% plot results
 
 fh = figure('position',[200,200,1400,800]);

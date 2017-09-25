@@ -31,7 +31,7 @@ pv = 0:dp:1;
 Np = length(pv);
 
     
-if usesave && exist([datafldr,'/',name],'file')==2
+if usesave && exist([datafldr,'/',name],'file')
     F = load([datafldr,'/',name]);
     E0 = F.E0;
     k0 = F.k0;
